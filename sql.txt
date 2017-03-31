@@ -1,0 +1,26 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- 
+ */;
+
+--
+-- Database: `db_login`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `tb_usuario`
+--
+
+CREATE TABLE `tb_usuario` (
+  `id` int(11) NOT NULL,
+  
+`nome` varchar(200) NOT NULL,
+  
+`email` varchar(200) NOT NULL,
+  
+`usuario` varchar(200) NOT NULL,
+  
+`senha` varchar(100) NOT NULL
+) 
